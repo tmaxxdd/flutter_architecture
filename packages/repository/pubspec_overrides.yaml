@@ -1,0 +1,6 @@
+# melos_managed_dependency_overrides: domain,infrastructure
+dependency_overrides:
+  domain:
+    path: ../domain
+  infrastructure:
+    path: ../infrastructure

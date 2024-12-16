@@ -1,0 +1,12 @@
+# melos_managed_dependency_overrides: domain,infrastructure,presentation,repository,util
+dependency_overrides:
+  domain:
+    path: packages/domain
+  infrastructure:
+    path: packages/infrastructure
+  presentation:
+    path: packages/presentation
+  repository:
+    path: packages/repository
+  util:
+    path: packages/util

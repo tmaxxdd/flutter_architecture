@@ -1,0 +1,28 @@
+name: flutter_architecture
+sdkPath: .fvm/flutter_sdk
+
+packages:
+  - .
+  - packages/domain
+  - packages/infrastructure
+  - packages/repository
+  - packages/presentation
+  - packages/util
+
+scripts:
+  clean:
+    run: melos exec -- flutter clean
+  get:
+    run: melos bs
+  build_runner:
+    run: melos exec -- flutter pub run build_runner build --delete-conflicting-outputs
+  setup:
+    run: melos clean && melos get && melos build_runner
+  test:
+    run: melos exec -- flutter pub run test
+  analyze:
+    exec: dart analyze .
+  format:
+    run: dart format .
+  lint_architecture:
+    run: melos exec -- flutter pub run architecture_linter:analyzer analyze lib
