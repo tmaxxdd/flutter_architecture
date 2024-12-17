@@ -1,11 +1,10 @@
 name: presentation
-description: "A new Flutter package project."
+description: 'A module with the UI of the app'
 version: 0.0.1
 publish_to: none
 
 environment:
-  sdk: ^3.5.3
-  flutter: ">=1.17.0"
+  sdk: ^3.5.0
 
 dependencies:
   flutter:

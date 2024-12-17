@@ -1,11 +1,10 @@
 name: repository
-description: "A new Flutter package project."
+description: 'A module that provides data from different sources'
 version: 0.0.1
-publish_to: none
+publish_to: 'none'
 
 environment:
-  sdk: ^3.5.4
-  flutter: ">=1.17.0"
+  sdk: ^3.5.0
 
 dependencies:
   flutter:

@@ -1,11 +1,10 @@
 name: util
-description: "A new Flutter package project."
+description: 'A module with set of helpers and extensions'
 version: 0.0.1
-homepage:
+publish_to: 'none'
 
 environment:
-  sdk: ^3.5.3
-  flutter: ">=1.17.0"
+  sdk: ^3.5.0
 
 dependencies:
   flutter:
